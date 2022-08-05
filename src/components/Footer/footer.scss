@@ -1,0 +1,24 @@
+@import "../../common/colors.scss";
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $secondary_color;
+    height: 50px;
+    width: 100%;
+    color: $light_color;
+    position: fixed;
+    bottom: 0px;
+
+}
+// .footer {
+//     background: $secondary-color;
+//     height: 50px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     color: $light_color;
+//     flex-direction: column;
+//   }

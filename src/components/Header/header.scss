@@ -1,0 +1,32 @@
+@import '../../common/colors.scss';
+
+.face-icon{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background: white;
+    margin: 5px;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+.header {
+    background-color: $secondary-color;
+    height: 72px;
+    padding: 0px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    color: $dark_color;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .user-image,
+  .user-image img {
+    width: 38px;
+    height: 38px;
+  }
